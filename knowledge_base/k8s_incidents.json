@@ -1,0 +1,22 @@
+[
+    {
+        "error": "ImagePullBackOff",
+        "cause": "Docker image cannot be downloaded",
+        "solution": "Verify image name and registry access"
+    },
+    {
+        "error": "ErrImagePull",
+        "cause": "Image does not exist or registry authentication failed",
+        "solution": "Check image repository and credentials"
+    },
+    {
+        "error": "CrashLoopBackOff",
+        "cause": "Application crashes repeatedly",
+        "solution": "Inspect pod logs and application startup sequence"
+    },
+    {
+        "error": "OOMKilled",
+        "cause": "Container exceeded memory limits",
+        "solution": "Increase memory limits or optimize application"
+    }
+]

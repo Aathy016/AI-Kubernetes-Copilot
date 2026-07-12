@@ -1,0 +1,10 @@
+streamlit
+kubernetes
+chromadb
+langchain
+langchain-core
+requests
+pandas
+python-dotenv
+fastapi
+uvicorn

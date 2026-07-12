@@ -1,0 +1,44 @@
+ImagePullBackOff
+
+Cause:
+Docker image does not exist.
+
+Resolution:
+Verify image name.
+Verify image tag.
+Verify registry access.
+
+----------------------------------------------------
+
+ErrImagePull
+
+Cause:
+Image cannot be downloaded.
+
+Resolution:
+Check registry.
+Check image repository.
+Validate authentication.
+
+----------------------------------------------------
+
+CrashLoopBackOff
+
+Cause:
+Application repeatedly crashes.
+
+Resolution:
+Inspect pod logs.
+Check environment variables.
+Check startup scripts.
+
+----------------------------------------------------
+
+OOMKilled
+
+Cause:
+Container exceeded memory limits.
+
+Resolution:
+Increase memory limits.
+Optimize application memory consumption.
